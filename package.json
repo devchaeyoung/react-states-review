@@ -1,17 +1,20 @@
 {
-  "name": "todos-with-reducer",
+  "name": "react-states-review",
   "version": "1.0.0",
   "description": "make todo list useReducer",
   "main": "index.ts",
+  "homepage": "https://devchaeyoung.github.io/react-states-review",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "pnpm run build && gh-pages -d dist"
   },
   "author": "devchaeyoung",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
